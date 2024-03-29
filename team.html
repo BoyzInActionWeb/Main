@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tým - Boyz In Action</title>
+  <style>
+    /* Styly zde */
+    body {
+      font-family: 'Impact', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    @font-face {
+      font-family: 'Impact';
+      src: url('impact.ttf') format('truetype');
+    }
+    header {
+      background-color: #444;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      padding: 20px 0;
+      text-align: center;
+    }
+    .team-member {
+      display: inline-block;
+      margin: 20px;
+    }
+    .team-member img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    .position {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Náš tým</h1>
+  </header>
+  <nav>
+    <a href="main.html">Hlavní stránka</a>
+  </nav>
+  <div class="container">
+    <section>
+      <div class="team-member">
+        <img src="kryspak.jpg" alt="Kryspak">
+        <h2>Kryspak</h2>
+        <p class="position">Hl. J.č.1</p>
+      </div>
+      <div class="team-member">
+        <img src="mars.jpg" alt="Mars">
+        <h2>Mars</h2>
+        <p class="position">Hl. J.č.2</p>
+      </div>
+    </section>
+    <section>
+      <div class="team-member">
+        <img src="dvd.jpg" alt="DVD">
+        <h2>DVD</h2>
+        <p class="position">Hl. Kameraman</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
